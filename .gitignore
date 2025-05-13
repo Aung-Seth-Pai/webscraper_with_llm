@@ -1,0 +1,67 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore Python virtual environments
+# Commonly named 'venv', '.venv', 'env', '.env'
+venv/
+.venv/
+env/
+.env/
+
+# Ignore logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Ignore build and distribution files
+dist/
+build/
+*.egg-info/
+.tox/
+htmlcov/ # Coverage reports
+
+# Ignore editor/IDE specific files
+# VS Code
+.vscode/
+
+# PyCharm/IntelliJ
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# Ignore operating system files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Ignore sensitive data files
+# This is a common name for environment variables, BE CAREFUL with this!
+# If your .env file contains secrets, ALWAYS ignore it.
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore node_modules folder (common in web projects)
+node_modules/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore Pipenv environment markers
+.pylock
+Pipfile.lock # Uncomment if you manually manage Pipfile.lock
+
+# Ignore Playwright browser binaries downloaded by `playwright install`
+# These can be large and are platform/version specific. Playwright can redownload them.
+# If you want to commit them for specific reasons (e.g., offline installs), comment this out.
+# ~/.cache/ms-playwright/ # Example, verify the exact path where playwright stores cache in WSL
+# It's usually in a directory like ~/.cache/ms-playwright/browser-downloads in WSL
+.cache/ms-playwright/
