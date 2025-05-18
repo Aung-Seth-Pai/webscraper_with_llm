@@ -65,3 +65,5 @@ Pipfile.lock # Uncomment if you manually manage Pipfile.lock
 # ~/.cache/ms-playwright/ # Example, verify the exact path where playwright stores cache in WSL
 # It's usually in a directory like ~/.cache/ms-playwright/browser-downloads in WSL
 .cache/ms-playwright/
+
+plan.txt
